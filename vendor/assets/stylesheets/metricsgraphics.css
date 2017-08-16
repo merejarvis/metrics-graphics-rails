@@ -1,28 +1,32 @@
+svg {
+  background-color: black;
+}
+
 .mg-active-datapoint {
-    fill: black;
+    fill: white;
     font-size: 0.9rem;
     font-weight: 400;
     opacity: 0.8;
 }
 
 .mg-area1-color {
-    fill: #0000ff;
+    fill: white;
 }
 
 .mg-area2-color {
-    fill: #05b378;
+    fill: rgb(0, 255, 0);
 }
 
 .mg-area3-color {
-    fill: #db4437;
+    fill: rgb(255,0,0);
 }
 
 .mg-area4-color {
-    fill: #f8b128;
+    fill: rgb(255, 255, 0);
 }
 
 .mg-area5-color {
-    fill: #5c5c5c;
+    fill: rgb(255, 255, 0);
 }
 
 text.mg-barplot-group-label {
@@ -65,7 +69,7 @@ text.mg-barplot-group-label {
 }
 
 .mg-baselines text {
-    fill: black;
+    fill: white;
     font-size: 0.9rem;
     opacity: 0.6;
     stroke: none;
@@ -82,10 +86,11 @@ text.mg-barplot-group-label {
 .mg-header {
     cursor: default;
     font-size: 1.2rem;
+    fill: rgb(230, 230, 230);
 }
 
 .mg-header .mg-chart-description {
-    fill: #ccc;
+    fill: rgb(230, 230, 230);
     font-family: FontAwesome;
     font-size: 1.2rem;
 }
@@ -160,20 +165,20 @@ text.mg-barplot-group-label {
     fill: none;
     opacity: 0.7;
     shape-rendering: auto;
-    stroke: #ccc;
+    stroke: white;
 }
 
 tspan.hist-symbol {
-    fill: #9e9efc;
+    fill: rgb(230, 230, 230);
 }
 
 .mg-histogram .mg-bar rect {
-    fill: #b6b6fc;
+    fill: rgb(230, 230, 230);
     shape-rendering: auto;
 }
 
 .mg-histogram .mg-bar rect.active {
-    fill: #9e9efc;
+    fill: rgb(170, 170, 170);
 }
 
 .mg-least-squares-line {
@@ -187,43 +192,43 @@ tspan.hist-symbol {
 }
 
 .mg-line1-color {
-    stroke: #4040e8;
+    stroke: rgb(230, 230, 230);
 }
 
 .mg-hover-line1-color {
-    fill: #4040e8;
+    fill: rgb(230, 230, 230);
 }
 
 .mg-line2-color {
-    stroke: #05b378;
+    stroke: rgb(0, 255, 0);
 }
 
 .mg-hover-line2-color {
-    fill: #05b378;
+    fill: rgb(0, 255, 0);
 }
 
 .mg-line3-color {
-    stroke: #db4437;
+    stroke: rgb(255, 0, 0);
 }
 
 .mg-hover-line3-color {
-    fill: #db4437;
+    fill: rgb(255, 0, 0);
 }
 
 .mg-line4-color {
-    stroke: #f8b128;
+    stroke: rgb(255, 255, 0);
 }
 
 .mg-hover-line4-color {
-    fill: #f8b128;
+    fill: rgb(255, 255, 0);
 }
 
 .mg-line5-color {
-    stroke: #5c5c5c;
+    stroke: rgb(255, 255, 0);
 }
 
 .mg-hover-line5-color {
-    fill: #5c5c5c;
+    fill: rgb(255, 255, 0);
 }
 
 .mg-line-legend text {
@@ -233,28 +238,28 @@ tspan.hist-symbol {
 }
 
 .mg-line1-legend-color {
-    color: #4040e8;
-    fill: #4040e8;
+    color: rgb(230, 230, 230);
+    fill: rgb(230, 230, 230);
 }
 
 .mg-line2-legend-color {
-    color: #05b378;
-    fill: #05b378;
+    color: rgb(0, 255, 0);
+    fill: rgb(0, 255, 0);
 }
 
 .mg-line3-legend-color {
-    color: #db4437;
-    fill: #db4437;
+    color: rgb(255, 0, 0);
+    fill: rgb(255, 0, 0);
 }
 
 .mg-line4-legend-color {
-    color: #f8b128;
-    fill: #f8b128;
+    color: rgb(255, 255, 0);
+    fill: rgb(255, 255, 0);
 }
 
 .mg-line5-legend-color {
-    color: #5c5c5c;
-    fill: #5c5c5c;
+    color: rgb(255, 255, 0);
+    fill: rgb(255, 255, 0);
 }
 
 .mg-main-area-solid svg .mg-main-area {
@@ -270,7 +275,7 @@ tspan.hist-symbol {
 }
 
 .mg-markers text {
-    fill: black;
+    fill: rgb(230, 230, 230);
     font-size: 0.8rem;
     opacity: 0.6;
 }
@@ -309,7 +314,7 @@ path.mg-confidence-band {
 path.mg-main-line {
     fill: none;
     opacity: 0.8;
-    stroke-width: 1.1px;
+    stroke-width: 1.5px;
 }
 
 .mg-points circle {
@@ -349,14 +354,14 @@ tspan.mg-points-mono {
 .mg-y-axis line {
     opacity: 1;
     shape-rendering: auto;
-    stroke: #b3b2b2;
+    stroke: rgb(230, 230, 230);
     stroke-width: 1px;
 }
 
 .mg-x-axis text,
 .mg-y-axis text,
 .mg-histogram .axis text {
-    fill: black;
+    fill: rgb(230, 230, 230);
     font-size: 0.9rem;
     opacity: 0.6;
 }
@@ -384,7 +389,7 @@ tspan.mg-points-mono {
 }
 
 .mg-year-marker text {
-    fill: black;
+    fill: rgb(230, 230, 230);
     font-size: 0.7rem;
     opacity: 0.6;
 }
@@ -392,7 +397,7 @@ tspan.mg-points-mono {
 .mg-year-marker line {
     opacity: 1;
     shape-rendering: auto;
-    stroke: #b3b2b2;
+    stroke: rgb(230, 230, 230);
     stroke-width: 1px;
 }
 
